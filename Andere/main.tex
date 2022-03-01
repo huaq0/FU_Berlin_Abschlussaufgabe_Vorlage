@@ -1,0 +1,28 @@
+\documentclass[11pt, a4paper]{scrartcl}
+\input{Andere/packages} % Lädt Packages in Dokument
+\addbibresource{references.bib} % Lädt Bibliothek
+\graphicspath{ {abbildungen/} } % Pfad zu den Abbildungen
+
+\input{kopf}
+
+\begin{document} % Beginnt Dokument
+% Formatierungen
+\onehalfspacing % 1.5 Zeilenabstand
+\maketitle % Print Titel
+% Gliederung
+\input{info}
+\newpage
+\input{verzeichnisse}
+\newpage
+\input{Kapitel/einleitung}
+\newpage
+\input{Kapitel/kartenmaßstab}
+\newpage
+\input{Kapitel/höhenprofil}
+\newpage
+%\input{Kapitel/schluss}
+\newpage
+\input{literaturverzeichnis}
+\newpage
+%\input{Andere/anhang}
+\end{document}

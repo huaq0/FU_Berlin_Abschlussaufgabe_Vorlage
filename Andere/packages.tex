@@ -1,0 +1,38 @@
+% Formatierung
+\usepackage{parskip} % Erzeugt Absätze durch Vertikale Leerzeichen
+\usepackage[style=authoryear]{biblatex} % Zitierrichtlinie
+\usepackage{setspace} % Zeilenabstand
+\usepackage[margin=1in, top=1in]{geometry} % Ränder
+
+% Sprachpaket
+\usepackage[german]{babel}
+\usepackage{csquotes}
+
+%Schriftart
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+% Links und Rechtsbündig
+\newcommand{\ltab}{\raggedright\arraybackslash} % Tabellenabschnitt linksbündig
+\newcommand{\ctab}{\centering\arraybackslash} % Tabellenabschnitt zentriert
+\newcommand{\rtab}{\raggedleft\arraybackslash} % Tabellenabschnitt rechtsbündig
+
+% Andere
+\usepackage{lipsum} %Lorem Ipsum
+\usepackage{graphicx} % Grafiken
+\usepackage{array} % Spaltenformate
+\usepackage{amsmath} % Mathematische Funktionen
+\usepackage{hyperref} % Hyperlinks
+\hypersetup{
+  colorlinks   = true,    % Colours links instead of ugly boxes
+  urlcolor     = black,    % Colour for external hyperlinks
+  linkcolor    = black,    % Colour of internal links
+  citecolor    = black      % Colour of citations
+}
+\usepackage{tabularx}
+
+%%% Alternative Schriftart mit Xelatex
+%\usepackage[scaled]{helvet} % Schriftart
+%\usepackage{fontspec} % Schriftart  
+%\setmainfont{Arial} % Hauptschriftart muss in main außerhalb des Dokuments
